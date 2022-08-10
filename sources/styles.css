@@ -1,0 +1,275 @@
+.bg{
+    background-image: url("../sources/bg.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    width: 100%;
+    
+}
+
+.bgnav{
+    background-color: white;
+    padding-right: 50px;
+}
+
+.kotak{
+    padding-left: 250px;
+}
+
+.visit{
+    position: relative;
+}
+
+.font {
+   font-size: 3rem;
+   color: black;
+   font-weight: bolder;
+}
+
+.align{
+   text-align: center;
+   font-size: 2rem;
+}
+
+.tengah {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   padding: 2rem;
+}
+
+.margin {
+   margin-top: 4rem;
+}
+
+.margin a{
+   text-decoration: none;
+   color: black;
+
+}
+
+.foot {
+   margin-bottom: 3rem;
+}
+
+.foot a{
+   text-decoration: none;
+   color: black;
+}
+
+.border {
+   border-radius: 4rem;
+}
+
+.pad {
+   padding: 4rem;
+}
+
+.white {
+   background-color: white;
+   margin: 1rem;
+   padding: 2rem;
+   border-radius: 3rem;
+}
+
+.animationLeft {
+   display: block;
+   font-size: 6rem;
+   font-weight: 400;
+
+   animation-name: moveInLeft;
+   animation-duration: 1s;
+   animation-timing-function: ease-out;
+}
+
+@keyframes moveInLeft {
+   0% {
+       opacity: 0;
+       transform: translateX(-10rem);
+   }
+
+   80% {
+       transform: translatex(1rem);
+   }
+   
+   100% {
+       opacity: 1;
+       transform: translate(0);
+   }
+   
+}
+
+.animationRight {
+    display: block;
+    font-size: 6rem;
+    font-weight: 400;
+ 
+    animation-name: moveInRight;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+ }
+ 
+ @keyframes moveInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(10rem);
+    }
+    
+    80% {
+        transform: translatex(-1rem);
+    }
+    
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+.mulaicam{
+   padding: 30rem;
+}
+
+.btno{
+    text-decoration: none;
+    color:white;
+
+}
+
+.btn-primary0 {
+    color: blueviolet;
+    text-decoration: none;
+    padding: 8px 8px;
+    color: white;
+    border-radius: 5px;
+}
+
+.row-cols-md-3{
+   flex: 0 0 auto;
+    width: 100%;
+}
+
+@keyframes moveInBottom {
+   0% {
+       opacity: 0;
+       transform: translateY(3rem);
+   }
+   
+   100% {
+       opacity: 1;
+       transform: translate(0);
+   }
+}
+
+.btn:link,
+.btn:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 1.5rem 4rem;
+    display: inline-block;
+    border-radius: 10rem;
+    transition: all .2s;
+    position: relative;
+}
+
+.btn:hover {
+    transform: translateY(-0.3rem);
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.2);
+}
+
+.btn:active {
+    transform: translateY(-0.1rem);
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,.2);
+}
+
+.btn-white {
+    background-color: #fff;
+    color: #777;
+}
+
+.btn::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 10rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s;
+}
+
+.btn-white::after {
+    background-color: #fff;
+}
+
+.btn:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+}
+
+.btn-animated {
+    animation: moveInBottom .5s ease-out .100s;
+    animation-fill-mode: backwards;
+}
+
+
+.animation{
+    display: block;
+    font-size: 6rem;
+    font-weight: 400;
+    letter-spacing: 3.5rem;
+
+    animation-name: moveInLeft;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+}
+
+.table{
+   /* position: absolute;
+   text-align: center; */
+   padding: 30px;
+   padding-left: 170px;
+   width: 60%;
+}
+
+
+
+
+.judul-all{
+    text-align: center;
+   position: relative;
+    padding: 7rem 7rem;
+    background-color: var(--bs-table-bg);
+    border-bottom-width: 1px;
+    box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg);
+}
+
+.cs{
+    text-align: center;
+}
+
+.titip{
+    text-align: center;
+}
+
+.pp{
+    /* margin-left: 20px; */
+    /* padding: 60px; */
+    margin-top: 30px;
+}
+
+.ppq{
+    margin-top: 28px;
+    /* padding: 60px; */
+}
+
+.rowo{
+    display: flex;
+}
+
+.rowo2{
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    display: flex;
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+}

@@ -1,0 +1,9 @@
+Di home isi Log History
+
+Di Penitipan server isi pilihan cek server, server baru, ambil server
+
+Form lebih di minimaliskan
+
+di bagian foto tombol 1 saja
+
+di bagian show, isi pilihan tambah partisipan
